@@ -17,15 +17,11 @@
                 <img src="./assets/LogoW.png" alt="">
             </div>
             <div class="nav-header">
-                <ul class="menu-bar">
-                    <li class="menu"><a href="#">Menu</a></li>
-                    <input type="checkbox" id="touch">
-                </ul>
-                <ul class="list-menu">
-                    <li><a href="#">Service Program</a></li>
-                    <li><a href="#">Build and parts</a></li>
-                    <li><a href="#">Dealer</a></li>
-                </ul>
+                <div class="list-menu">
+                <a href="#">Service Program</a>
+                <a href="#">Build and parts</a>
+                <a href="#">Dealer</a>
+                </div>
             </div>
             <div class="contact">
                 <i class="fas fa-phone"></i>
@@ -78,9 +74,6 @@
         <div class="safety-content">
             <div class="img">
                 <div class="image"></div>
-                <div class="safety-nav">
-
-                </div>
             </div>
             <div class="desc">
                 <h1>Build for Safety</h1>
@@ -106,10 +99,6 @@
                     <h1>AWD</h1>
                     <p>Dual Motor All-Wheel Drive instantly controls traction and torque, in all weather conditions</p>
                 </div>
-            </div>
-            <div class="perform-footer">
-                <h1>Quickest Acceleration</h1>
-                <p>MCX-29 comes with the option of dual motor all-wheel drive, 20” Überturbine Wheels and Performance Brakes for total control in all weather conditions. A carbon fiber spoiler improves stability at high speeds, all allowing MCX-29 to accelerate from 0-60 mph* in as little as 3 seconds.</p>
             </div>
         </div>
         <div class="range-content">
@@ -167,10 +156,10 @@
                 <div class="logo">
                     <img src="./assets/Logo.png" alt="Electra">
                 </div>
-                <form method="post">
-                        <input class="input" type="text" name="nama" id="nama" placeholder="Nama">
-                        <input class="input" type="email" name="email" id="email" placeholder="Email">
-                        <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Pesan"></textarea>
+                <form method="post" id="form-email">
+                        <input class="input" type="text" name="nama" id="nama" placeholder="Nama" required>
+                        <input class="input" type="email" name="email" id="email" placeholder="Email" required>
+                        <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Pesan" required></textarea>
                         <button id="submit" type="submit">SEND</button>
                 </form>
             </div>
@@ -181,34 +170,36 @@
                     <i class="fab fa-instagram-square"></i>
                     <i class="fab fa-whatsapp-square"></i>
                 </div>
-                <div class="footer-card">
-                    <h2>ABOUT US</h2>
-                    <a href="#">Careers</a>
-                    <a href="#">Media Newsroom</a>
-                    <a href="#">Environment</a>
-                    <a href="#">Safety</a>
-                    <a href="#">Contact Us</a>
-                    <a href="#">CoBrowse</a>
-                </div>
-                <div class="footer-card">
-                    <h2>&copy;2022 Electra</h2>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms & Conditions</a>
-                    <a href="#">Site Map</a>
-                    <a href="#">Accessibility</a>
-                    <a href="#">Complaince & Ethics</a>
-                    <a href="#">Legal Information</a>
-                </div>
-                <div class="footer-card">
-                    <h2>CLIENT SERVICE</h2>
-                    <a href="#">Mon - Fri, 8.30 AM - 6.00 PM</a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                </div>
-                <div class="footer-card">
-                    <h2>ROADSIDE ASSISTANCE</h2>
-                    <a href="#">Mon - Sun, 24 hours/day</a>
-                    <a href="#">ProFirst Collision Facility</a>
+                <div class="footer-p-card">
+                    <div class="footer-card">
+                        <h2>ABOUT US</h2>
+                        <a href="#">Careers</a>
+                        <a href="#">Media Newsroom</a>
+                        <a href="#">Environment</a>
+                        <a href="#">Safety</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">CoBrowse</a>
+                    </div>
+                    <div class="footer-card">
+                        <h2>&copy;2022 Electra</h2>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Site Map</a>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Complaince & Ethics</a>
+                        <a href="#">Legal Information</a>
+                    </div>
+                    <div class="footer-card">
+                        <h2>CLIENT SERVICE</h2>
+                        <a href="#">Mon - Fri, 8.30 AM - 6.00 PM</a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                    <div class="footer-card">
+                        <h2>ROADSIDE ASSISTANCE</h2>
+                        <a href="#">Mon - Sun, 24 hours/day</a>
+                        <a href="#">ProFirst Collision Facility</a>
+                    </div>
                 </div>
             </footer>
     </div>

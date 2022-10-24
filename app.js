@@ -25,6 +25,7 @@ const validate = () => {
   let email = document.querySelector('#email')
   let message = document.querySelector('#pesan')
   let submit = document.querySelector('#submit')
+  let form = document.querySelector('#form-email')
 
   submit.addEventListener('click', (e) => {
     e.preventDefault();
@@ -35,6 +36,8 @@ const validate = () => {
       sendMail(name.value, email.value, message.value);
       success();
     }
+
+    form.reset()
   })
 }
 
@@ -73,9 +76,3 @@ const InputEmpty = () => {
     button: 'OK!'
   })
 }
-
-( function () {
-  emailjs.init('tHMIhzeblzCs7EOVX');
-} )()
-
-validate()
