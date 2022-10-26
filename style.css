@@ -525,6 +525,168 @@ footer .footer-card a:hover {
     color: #E8EDDF;
 }
 
+@media only screen and (max-width: 1116px) {
+
+    .container {
+        width: 100%;
+        position: relative;
+    }
+
+    .container header {
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        background: transparent;
+    }
+
+    .container header .logo {
+        width: 10%;
+    }
+
+    .container header .nav-header {
+        width: 50%
+    }
+
+    .container header .nav-header .list-menu {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    .container header .contact {
+        width: 15%;
+        font-size: .7em;
+    }
+
+    .container .background {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container .desc-content {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .container .desc-content .desc-text {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 100px;
+    }
+    .container .perform-content .perform-desc {
+        width: 80vw;
+        display: flex;
+        position: relative;
+        margin: auto;
+        justify-content: space-between;
+        top: 37vh;
+        font-size: .8em;
+    }
+  
+    .container .range-content .range-section {
+        width: 30vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        font-size: .8em;
+    }
+
+    .container .range-content .range-section img {
+        margin-top: 50px;
+    }
+
+    .container .range-content .range-sec-right {
+        width: 70vw;
+    }
+
+    .container .range-content .range-sec-right .range-bg {
+        width: 70vw;
+        position: absolute;
+        height: 100vh;
+    }
+
+    .container .range-content .range-desc {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        margin: auto;
+        top: 50px;
+        font-size: .8em;
+        justify-content: space-around;
+    }
+
+    .container .interior-content {
+        width: 100%;
+        height: 70vh;
+        position: relative;
+    }
+
+    .container .interior-content img {
+        width: 100%;
+        height: 70%;
+        position: absolute;
+    }
+
+    .container .interior-content .interior-card {
+        left: 750px;
+        font-size: .8em;
+        height: 300px
+    }
+
+    .container .interior-content .interior-footer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 50px;
+    }
+
+    .container .interior-content .interior-footer .footer-header {
+        width: 500px;
+    }
+
+    .container .interior-content .interior-footer .footer-desc {
+        width: 400px;
+    }
+
+    .container .complaint-form {
+        width: 100%;
+    }
+
+    .container .complaint-form .logo {
+        padding: 50px;
+    }
+
+    .container .complaint-form form {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .complaint-form .input {
+        height: 40px;
+    }
+
+    .container .complaint-form textarea {
+        height: 150px;
+    }
+
+    footer {
+      width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      height: 300px;
+    }
+}
+
 @media only screen and ( max-width: 567px ) {
 
     html {

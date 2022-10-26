@@ -42,7 +42,7 @@ const validate = () => {
 }
 
 const sendMail = (name, email, message) => {
-  emailjs.send('service_l5hk58n', 'template_xbpy3dp',
+  emailjs.send('service_ujka9bx', 'template_9oyt4zo',
   {
     from_name : name,
     to_name : email,
