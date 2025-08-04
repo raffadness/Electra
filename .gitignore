@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+<IfModule mod_mime.c>
+    AddType text/javascript js mjs
+</IfModule>
