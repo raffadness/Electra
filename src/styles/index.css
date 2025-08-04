@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  --color-gray-light: #d6d6d6; /* Abu terang */
+  --color-yellow-light: #ffee32; /* Kuning muda */
+  --color-yellow-dark: #ffd100; /* Kuning tua */
+  --color-gray-dark: #202020; /* Abu gelap */
+  --color-gray-medium: #333533; /* Abu muda */
+
+  font-family: "Lexend", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #202020;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffee32;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffd100;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffee32 #202020;
+}
+
+/* Custom animations for sidebar navigation */
+@keyframes slideIn {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: 1.5rem;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Section fade in animation */
+@keyframes sectionFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-fade-in {
+  animation: sectionFadeIn 0.8s ease-out forwards;
+}
+
+.section-fade-in-delay-1 {
+  animation: sectionFadeIn 0.8s ease-out 0.1s forwards;
+}
+
+.section-fade-in-delay-2 {
+  animation: sectionFadeIn 0.8s ease-out 0.2s forwards;
+}
+
+.section-fade-in-delay-3 {
+  animation: sectionFadeIn 0.8s ease-out 0.3s forwards;
+}
+
+/* Custom animation delays for hero section floating elements */
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+.delay-1000 {
+  animation-delay: 1000ms;
+}
